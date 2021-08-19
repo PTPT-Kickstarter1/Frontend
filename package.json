@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "server": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/PTPT-Kickstarter1/Frontend/issues"
   },
-  "homepage": "https://github.com/PTPT-Kickstarter1/Frontend#readme"
+  "homepage": "https://github.com/PTPT-Kickstarter1/Frontend#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "eslint": "^7.32.0"
+  }
 }
