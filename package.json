@@ -22,6 +22,7 @@
   "homepage": "https://github.com/PTPT-Kickstarter1/Frontend#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
+    "express": "^4.17.1",
     "react": "^17.0.2"
   },
   "devDependencies": {
