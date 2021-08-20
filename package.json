@@ -1,7 +1,7 @@
 {
-  "name": "frontend",
+  "name": "kickstarter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Predicts monetary success of kickstarter campaign",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
