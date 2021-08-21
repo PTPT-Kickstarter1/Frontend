@@ -9,7 +9,8 @@ const Navbar = () => {
           style={{
             color: "white",
             backgroundColor: "#f1356d",
-            borderRadius: "10px",
+            borderRadius: "8px",
+            margin: "5px",
             padding: "8px",
           }}>
           Home
@@ -19,7 +20,8 @@ const Navbar = () => {
           style={{
             color: "white",
             backgroundColor: "#f1356d",
-            borderRadius: "10px",
+            borderRadius: "8px",
+            margin: "5px",
             padding: "8px",
           }}>
           Projects
@@ -29,7 +31,8 @@ const Navbar = () => {
           style={{
             color: "white",
             backgroundColor: "#f1356d",
-            borderRadius: "10px",
+            borderRadius: "8px",
+            margin: "5px",
             padding: "8px",
           }}>
           Login

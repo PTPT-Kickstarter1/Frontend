@@ -1,1 +1,1 @@
-# Frontend
+# Frontend files and folders only

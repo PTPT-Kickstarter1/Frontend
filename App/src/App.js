@@ -1,17 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import { BrowserRouter as Router } from "react-router-dom";
+
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Kickstarter-1</h1>        
-        <p>
-          Build-Week for Lambda Students
-        </p>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <div className='App'>
+        <div className='App-content'>
+          <h1>Kickstarter-1</h1>
+          <p>Build-Week </p>
+          <img src={logo} className='App-logo' alt='logo' />
+        </div>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
