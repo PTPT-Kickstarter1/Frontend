@@ -15,7 +15,7 @@ const Navbar = () => {
           }}>
           Home
         </a>
-        <a
+        {/* <a
           href='/Projects'
           style={{
             color: "white",
@@ -25,7 +25,17 @@ const Navbar = () => {
             padding: "8px",
           }}>
           Projects
-        </a>
+        </a> */}
+        {/* <a
+          href='/Getstarted'
+          style={{
+            color: "white",
+            backgroundColor: "#f1356d",
+            borderRadius: "10px",
+            padding: "8px",
+          }}>
+          Get Started
+        </a> */}
         <a
           href='/Login'
           style={{

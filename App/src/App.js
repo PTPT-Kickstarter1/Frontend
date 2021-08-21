@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router } from "react-router-dom";
 
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home.js";
 import Footer from "./components/Footer/footer";
 
 function App() {
@@ -10,10 +10,8 @@ function App() {
     <Router>
       <Navbar />
       <div className='App'>
-        <div className='App-content'>
-          <h1>Kickstarter-1</h1>
-          <p>Build-Week </p>
-          <img src={logo} className='App-logo' alt='logo' />
+        <div className='app-content'>
+          <Home />
         </div>
         <Footer />
       </div>
