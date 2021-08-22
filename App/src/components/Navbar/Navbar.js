@@ -9,27 +9,40 @@ const Navbar = () => {
           style={{
             color: "white",
             backgroundColor: "#f1356d",
-            borderRadius: "10px",
+            borderRadius: "8px",
+            margin: "5px",
             padding: "8px",
           }}>
           Home
         </a>
-        <a
+        {/* <a
           href='/Projects'
+          style={{
+            color: "white",
+            backgroundColor: "#f1356d",
+            borderRadius: "8px",
+            margin: "5px",
+            padding: "8px",
+          }}>
+          Projects
+        </a> */}
+        {/* <a
+          href='/Getstarted'
           style={{
             color: "white",
             backgroundColor: "#f1356d",
             borderRadius: "10px",
             padding: "8px",
           }}>
-          Projects
-        </a>
+          Get Started
+        </a> */}
         <a
           href='/Login'
           style={{
             color: "white",
             backgroundColor: "#f1356d",
-            borderRadius: "10px",
+            borderRadius: "8px",
+            margin: "5px",
             padding: "8px",
           }}>
           Login
